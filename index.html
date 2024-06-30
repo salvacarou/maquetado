@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Salvador Carou / Bautista Ramos Mejia</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+    <!-- nav -->
+
+    <header class="fixed-top">
+        <h1 id="logo" data-logo="logo">UFC</h1>
+        <nav class="navbar navbar-expand-lg bg-dark navbar-dark py-3" >
+            <div class="container-fluid">
+
+              <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#maspeleas">Mas peleas</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#info">Información</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#form">Reservar</a>
+                  </li>
+                </ul>
+              </div>
+
+            </div>
+          </nav>
+    </header>
+
+    <!-- banner -->
+    <main>
+    <section id="banner" class="container-fluid text-white vh-100 d-flex align-items-center">
+        <div class="row">
+          <div class="ms-4 col-10 col-md-7 col-lg-6 col-xl-5">
+            <h2 class="text-uppercase display-1 fw-bold">Proximo sábado 29 - UFC 303</h2>
+            <p class="fs-4 fw-light py-3">Revancha entre Alex "Poatan" Pereira y Jiri Prochazka. Por el título.</p>
+            <a class="text-decortation-none text-white btn btn-outline-info btn-lg rounded-pill" href="#form">Reservar ahora</a>
+          </div>
+        </div>
+      </section>
+
+      <!-- cartas -->
+
+      <section id="maspeleas" class="container py-5">
+        <h2 class="display-4 text-center mt-5">Otras peleas</h2>
+        <div class="row">
+  
+          <div class="col-12 col-md-6 col-lg-3 mx-auto mt-3">
+            <div class="card shadow">
+              <img src="./img/tarjeta4.png" class="card-img-top" alt="black coffee">
+              <div class="card-body">
+                <h5 class="card-title">Mcgregor vs Chandler</h5>
+                <p class="card-text">Pelea esperada hace años, este sabado se vera si Conor sigue a la altura como antes.</p>
+              </div>
+            </div>
+          </div>
+  
+          <div class="col-12 col-md-6 col-lg-3 mt-3">
+            <div class="card shadow">
+              <img src="./img/tarjeta3.png" class="card-img-top" alt="black coffee">
+              <div class="card-body">
+                <h5 class="card-title">Edwards vs Diaz</h5>
+                <p class="card-text">Diaz jugandosela en un peso mayor contra un oponente con ventaja de largo y peso</p>
+              </div>
+            </div>
+          </div>
+  
+          <div class="col-12 col-md-6 col-lg-3 mt-3">
+            <div class="card shadow">
+              <img src="./img/tarjeta2.png" class="card-img-top" alt="black coffee">
+              <div class="card-body">
+                <h5 class="card-title">Jones vs Machida</h5>
+                <p class="card-text">Jon "Bones" Jones contra el Brasilero Lioto Machida. Presion contra tecnica. Jones pretende el cinturon</p>
+              </div>
+            </div>
+          </div>
+  
+          <div class="col-12 col-md-6 col-lg-3 mt-3">
+            <div class="card shadow">
+              <img src="./img/tarjeta1.png" class="card-img-top" alt="black coffee">
+              <div class="card-body">
+                <h5 class="card-title">Gaethje vs Holloway</h5>
+                <p class="card-text">Pelea por el titulo BMF. Categoria nueva en la empresa UFC, donde se enfrentan solo strikers</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+       <!-- carrusel -->
+
+
+       <section class="row container mx-auto">
+          <section id="info" class="mt-5 col-12 col-xl-6">
+              
+          <h2 class="display-3 text-center">Información</h2>
+
+          <section class="container-fluid">
+            <div class="row">
+              <div class="col-12 col-lg-10 mx-auto">
+                <div id="carousel1" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <img src="./img/carr1.png" class="d-block w-100" alt="web">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="./img/carr2.png" class="d-block w-100" alt="diseño web">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="./img/carr3.png" class="d-block w-100" alt="diseño bootstrap">
+                    </div>
+                  </div>
+                  <button class="carousel-control-prev" type="button" data-bs-target="#carousel1" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button class="carousel-control-next" type="button" data-bs-target="#carousel1" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </section>
+          </section>
+    <!-- video -->
+
+          <section id="lamejor" class="container mt-5 col-12 col-xl-6">
+              <h2 class="display-4 text-center mb-3">La mejor pelea del año</h2>
+              <div class="row">
+                <div class="col-8 mx-auto">
+                  <div class="ratio ratio-16x9">
+                      <iframe width="560" height="315" src="https://www.youtube.com/embed/UHGomATiHvU?si=y9KPd-X-K1KrSETA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                  </div>
+                </div>
+              </div>
+          </section>
+       </section>
+
+       <!-- text + foto -->
+
+       <section id="data" class="mt-5 container">
+        <h2 class="display-3 text-left ">¿Quien es Dana White?</h2>
+        <div class="container text-left mt-3">
+          <div class="row">
+            <div class="col-12 col-lg-4 imgdana">dana</div>
+            <div class="col-12 col-lg-8">
+              <p>Dana White es una figura prominente en el mundo de los deportes, conocido principalmente por su papel como presidente de la Ultimate Fighting Championship (UFC). Bajo su liderazgo, la UFC ha crecido de ser una organización de artes marciales mixtas relativamente desconocida a convertirse en un fenómeno global, atrayendo a millones de fans en todo el mundo. Su estilo de gestión y su enfoque directo han sido fundamentales para transformar el deporte y llevarlo a nuevas alturas.<br><br></p>
+              <p>Nacido el 28 de julio de 1969 en Manchester, Connecticut, White desarrolló un interés temprano por los deportes de combate. Antes de involucrarse con la UFC, trabajó como gerente de boxeadores y promotor de eventos, lo que le proporcionó una base sólida en la industria de las peleas. Su amistad con los hermanos Lorenzo y Frank Fertitta fue crucial, ya que juntos adquirieron la UFC en 2001, cuando la organización estaba al borde de la bancarrota.<br><br></p>
+              <p>Uno de los mayores logros de White fue asegurar acuerdos de televisión importantes, que llevaron las artes marciales mixtas a una audiencia mucho más amplia. Los contratos con Spike TV, Fox Sports y, más recientemente, ESPN, han sido vitales para la difusión del deporte. Estos acuerdos no solo aumentaron la visibilidad de la UFC, sino que también elevaron el perfil de los peleadores, muchos de los cuales se han convertido en nombres conocidos.<br></p>
+            </div>
+            <a class="mx-auto vermas col-12" href="#data">Ver mas</a>
+            <div class="vermenos col-12 mt-5">White también es conocido por su enfoque agresivo en la promoción de eventos y peleadores. No es raro verlo involucrarse directamente en conferencias de prensa y promocionales, donde a menudo añade drama y emoción, manteniendo el interés de los fans. Su estilo controvertido, aunque a veces polarizante, ha sido efectivo para mantener a la UFC en el centro de la atención mediática.<br><br>
+            </div>
+            <div class="vermenos col-12">Bajo su liderazgo, la UFC también ha innovado en términos de producción y presentación de eventos. La introducción de tecnologías avanzadas, como cámaras de alta definición y gráficos mejorados, ha mejorado la experiencia de los espectadores tanto en casa como en vivo. Además, White ha sido un defensor de las regulaciones y estándares médicos más estrictos para proteger la salud y seguridad de los peleadores.<br><br>
+            </div>
+            <div class="vermenos col-12">A pesar de las críticas ocasionales sobre su estilo de gestión y algunas decisiones controversiales, Dana White sigue siendo una figura influyente y vital en el mundo de las artes marciales mixtas. Su pasión y dedicación al deporte han sido innegables, y su impacto en la UFC y en la popularización de las artes marciales mixtas continuará siendo recordado por muchos años.<br><br>
+            </div>
+            <a class="vermenos" href="#somosAncla">ver menos</a>
+          </div>
+        </div>
+       </section>
+
+      <!-- form -->
+      
+      <aside id="form" class="container py-15">
+        <h2 class="display-4 text-center mt-5">Entradas</h2>
+        <p class="text-center">Ingresando tus datos se te enviara un email el día que salgan las entradas</p>
+        <form class="px-5">
+          <div class="row g-2">
+            <div class="col-md">
+              <div class="form-floating">
+                <input type="email" class="form-control" id="floatingInputGrid" placeholder="name@example.com" value="mdo@example.com">
+                <label for="floatingInputGrid">Email address</label>
+              </div>
+            </div>
+            <div class="col-md">
+              <div class="form-floating">
+                <select class="form-select" id="floatingSelectGrid">
+                  <option selected>Cuantas entradas</option>
+                  <option value="1">1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                </select>
+                <label for="floatingSelectGrid">Número</label>
+              </div>
+            </div>
+          </div>
+          <div class="form-floating mt-2">
+            <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
+            <label for="floatingTextarea2">¿Quien gana y por que?</label>
+          </div>
+          <div class="mb-3 form-check">
+            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+            <label class="form-check-label" for="exampleCheck1">Notificar</label>
+          </div>
+          <button class="btn btn-primary">Enviar</button>
+        </form>
+      </aside>
+
+    </main> 
+    
+    <!-- footer -->
+     <footer class="container-fluid text-bg-dark p-4 mt-5">
+      <div class="container text-center">
+        <div class="row align-items-center">
+          <div class="col-12 col-md-12 col-lg-4 mb-3">
+            <div class="row">
+              <div class="col-4">
+                <a href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+              </div>
+              <div class="col-4">
+                <a href="https://www.youtube.com/" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+              </div>
+              <div class="col-4">
+                <a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4 logo mx-auto mt-3 mb-3">
+            logo
+          </div>
+          <div class="col-12 col-md-6 col-lg-4 mt-3">
+            <p>Maquetado web - Escuela Da Vinci</p>
+            <p>Carou Salvador - Ramos Mejia Bautista</p>
+          </div>
+          
+          </div>
+        </div>
+      </div>
+     </footer>
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+</body>
+</html>

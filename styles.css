@@ -1,0 +1,84 @@
+/* nav */
+
+header {
+    position: relative;
+}
+
+#logo {
+    width: 120px;
+    height: 60px;
+    background: url(./img/logoNav.png);
+    font-size: 0;
+    position: absolute;
+    top: 6px;
+    left: 20px;
+    z-index: 1;
+}
+
+/* fin de nav */
+/* banner */
+
+#banner {
+    background:
+    linear-gradient(90deg, rgba(0,0,0,0.9   ) 0%, rgba(255,193,58,0.15) 100%),
+    url("./img/banner1sm.png")
+    no-repeat;
+}
+
+@media screen and (min-width:600px){
+    #banner {
+        background:
+        linear-gradient(90deg, rgba(0,0,0,0.9   ) 0%, rgba(255,193,58,0.15) 100%),
+        url("./img/banner1md.png")
+        no-repeat;
+    }
+}
+
+@media screen and (min-width:1200px){
+    #banner {
+        background:
+        linear-gradient(90deg, rgba(0,0,0,0.9   ) 0%, rgba(255,193,58,0.15) 100%),
+        url("./img/banner1.png");
+    }
+}
+
+/* fin de banner */
+
+
+.logo {
+    background: url(./img/logoNav.png);
+    font-size: 0;
+    width: 120px;
+    height: 60px;
+}
+
+/* @media screen and (max-width:650px){
+
+} */
+
+.imgdana {
+    background: url(./img/dana.png) no-repeat center center;
+    font-size: 0;
+    width: 419px;
+    height: 357px;
+}
+
+.fa-brands {
+    font-size: 35px;
+    color: white;
+    margin-top: 15px;
+}
+
+.vermenos {
+    display: none;
+}
+
+section:target .vermenos {
+    display: block;
+}
+
+section:target .vermas {
+    display: none;
+}
+
+
